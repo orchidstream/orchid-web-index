@@ -1,0 +1,35 @@
+.navbar-light   a.os-brand {
+    color: #ff0598;
+}
+
+.os-second-row {
+    /*background: #ff87c7;*/
+    height: 400px;
+}
+
+.os-clients-row {
+    background: #ff0598;
+    height: 200px;
+}
+
+a.os-client .os-client-title-row {
+}
+
+a.os-client .os-client-title-row i {
+    font-size: 64px;
+    padding: 20px;
+}
+
+a.os-client .os-client-title-row h2 {
+    font-size: 48px;
+}
+
+a.os-client > *{
+    text-align: center;
+    color: #ffffff;
+}
+
+a.os-client:hover, a.os-client:active, a.os-client:focus {
+    text-decoration: none;
+    background: #c60476;
+}
