@@ -3,13 +3,13 @@
 }
 
 .os-second-row {
-    /*background: #ff87c7;*/
+    background: url(https://s3-eu-west-1.amazonaws.com/orchidstream/bg-1.jpg) no-repeat 0 60%;
+    background-size: cover;
     height: 400px;
 }
 
 .os-clients-row {
     background: #ff0598;
-    height: 200px;
 }
 
 a.os-client .os-client-title-row {
