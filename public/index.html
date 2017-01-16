@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -16,71 +16,83 @@
 
     <title>Orchid Stream</title>
 </head>
+
 <body>
-<header class="navbar navbar-light navbar-toggleable-md">
-    <nav class="container">
-        <a href="/" class="navbar-brand os-brand">Orchid Stream</a>
-        <div class="hidden-lg-up">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-label="Toggle navigation">
+    <div class="container">
+        <nav class="navbar navbar-light navbar-toggleable-md">
+            <button class="navbar-toggler navbar-toggler-right collapsed"
+                    type="button" data-toggle="collapse" data-target="#containerNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a href="/" class="nav-item nav-link"><i class="fa fa-github"></i>&nbsp;GitHub</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
-<main>
-    <div class="container">
-        <div class="row os-second-row">
 
-        </div>
-        <div class="row os-clients-row">
+            <a href="/" class="navbar-brand os-brand">Orchid Stream</a>
 
-            <a class="col-md-4 os-client" href="/">
-                <div class="row os-client-title-row">
-                    <div class="col-xl-12">
-                        <h2>
-                        <i class="fa fa-mobile-phone"></i><br>Mobile
-                        </h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="col-xl-12">Mobile client for iOS and Android</p>
-                </div>
-            </a>
+            <div class="navbar-collapse collapse" id="containerNavbar" aria-expanded="false">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 3</a>
+                    </li>
+                </ul>
 
-            <a class="col-md-4 os-client" href="/">
-                <div class="row os-client-title-row">
-                    <div class="col-xl-12">
-                        <h2>
-                            <i class="fa fa-window-restore"></i><br>Web
-                        </h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="col-xl-12">Web client to use it with your browser</p>
-                </div>
-            </a>
-
-            <a class="col-md-4 os-client" href="/">
-                <div class="row os-client-title-row">
-                    <div class="col-xl-12">
-                        <h2>
-                            <i class="fa fa-desktop"></i><br>Desktop
-                        </h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <p class="col-xl-12">Desktop client for Windows, osX and Linux</p>
-                </div>
-            </a>
-        </div>
+                <a href="/" class="github-link"><i class="fa fa-github"></i>&nbsp;GitHub</a>
+            </div>
+        </nav>
     </div>
-</main>
+
+    <main>
+        <div class="container">
+            <div class="row os-second-row">
+
+            </div>
+            <div class="row os-clients-row">
+
+                <a class="col-md-4 os-client" href="/">
+                    <div class="row os-client-title-row">
+                        <div class="col-xl-12">
+                            <h2>
+                                <i class="fa fa-mobile-phone"></i><br>Mobile
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="col-xl-12">Mobile client for iOS and Android</p>
+                    </div>
+                </a>
+
+                <a class="col-md-4 os-client" href="/">
+                    <div class="row os-client-title-row">
+                        <div class="col-xl-12">
+                            <h2>
+                                <i class="fa fa-window-restore"></i><br>Web
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="col-xl-12">Web client to use it with your browser</p>
+                    </div>
+                </a>
+
+                <a class="col-md-4 os-client" href="/">
+                    <div class="row os-client-title-row">
+                        <div class="col-xl-12">
+                            <h2>
+                                <i class="fa fa-desktop"></i><br>Desktop
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="col-xl-12">Desktop client for Windows, osX and Linux</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
