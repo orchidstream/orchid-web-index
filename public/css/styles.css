@@ -33,3 +33,8 @@ a.os-client:hover, a.os-client:active, a.os-client:focus {
     text-decoration: none;
     background: #c60476;
 }
+
+.github-link {
+    display: inline-block;
+    padding: .5em 0;
+}
